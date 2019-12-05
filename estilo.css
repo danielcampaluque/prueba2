@@ -1,0 +1,61 @@
+﻿* {margin:0;
+   padding:0;}
+body {background-image: url("imagenes/tile-sky2.jpg");
+      font-family: 'Open Sans', sans-serif;}
+#wrapper {width:90%;
+          margin:0 auto;}
+header {background-image: url('imagenes/header.jpg');
+        background-size: cover;
+        height:18vw;}
+header p {position:relative;
+          top:10vw;
+          left:40vw;
+          color:white;
+          font-size:20xvw;
+          display:inline;}
+
+header i.fas {color:white;
+              font-size:10vw;
+              position:relative;
+              top:10vw;
+              left:-12vw;
+              display:none;}
+nav, footer { background-color:rgb(190,150,26);}
+nav ul {padding:1vw 0;
+}
+nav ul li {display:inline;}
+nav ul li a {color:black;
+             text-decoration:none;
+             font-size:2.0vw;
+             font-weight:bold;
+             padding:2vw 2.1vw;}
+nav ul li a:hover {color:white;}
+section {background-image: url("imagenes/tile.jpg");
+         padding:2vw;}
+section p,section h3 {margin:1vw;}
+section h3 {text-align:center;
+            color:rgb(171,193,205);}
+section p {color:white;
+           text-align:justify;
+           text-indent:3vw;}
+section img {margin:4vw;
+             width: 18vw;}
+footer {text-align: center;
+        padding:1vw;}
+
+        
+@media only screen and (max-width:400px) {
+        
+       header i.fa-bars {display:inline;  }
+       header i.fa-window-close {display:none;  }
+       nav {display:;}
+       nav ul { padding:0;}
+       
+       nav ul li {display:block;
+                  text-align:center;
+                  border: 1px solid black;
+                 }
+       nav ul li a {font-size:2.5vw;}
+
+}
+
